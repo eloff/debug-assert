@@ -46,27 +46,27 @@ func False(val bool) {
 	}
 }
 
-func Greater(expected, actual interface{}) {
-	if !(equal(expected, actual) || less(expected, actual)) {
-		Assertf("expected %v > %v", actual, expected)
+func Greater(x, y interface{}) {
+	if less(y, x) {
+		Assertf("expected %v > %v", x, y)
 	}
 }
 
-func GreaterOrEqual(expected, actual interface{}) {
-	if !less(expected, actual) {
-		Assertf("expected %v >= %v", actual, expected)
+func GreaterOrEqual(x, y interface{}) {
+	if !less(x, y) {
+		Assertf("expected %v >= %v", x, y)
 	}
 }
 
-func Lesser(expected, actual interface{}) {
-	if less(expected, actual) {
-		Assertf("expected %v < %v", actual, expected)
+func Lesser(x, y interface{}) {
+	if less(x, y) {
+		Assertf("expected %v < %v", x, y)
 	}
 }
 
-func LessserOrEqual(expected, actual interface{}) {
-	if less(expected, actual) || equal(expected, actual) {
-		Assertf("expected %v <= %v", actual, expected)
+func LessserOrEqual(x, y interface{}) {
+	if less(x, y) || equal(x, y) {
+		Assertf("expected %v <= %v", x, y)
 	}
 }
 
