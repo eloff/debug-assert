@@ -1,0 +1,17 @@
+github.com/ansel1/merry v1.1.0/go.mod h1:qBYMZz+rgzOfZ3QACcTK7hE0bBMxvC0sKCok2t7bAhw=
+github.com/ansel1/merry v1.3.1 h1:OfCP2cP8YG9hsWwlkjXqdkkD1d6IZmOMjj2jnFW0C+M=
+github.com/ansel1/merry v1.3.1/go.mod h1:qBYMZz+rgzOfZ3QACcTK7hE0bBMxvC0sKCok2t7bAhw=
+github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
+github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
+github.com/eloff/assert v0.1.1 h1:dO/5oj7YAvXu5sbUgBYJFNJqea1oLmi2Wd/LRJzBZt0=
+github.com/eloff/assert v0.1.1/go.mod h1:/dwbM6GhPpfBrw6ot1wkZ5EyOcYDgYz2X3r8Q96yDhE=
+github.com/eloff/assert v0.1.2 h1:Vv99EXKOuTT0unyIX7jqW0URjSXVtmQzH58ZdgDdyeM=
+github.com/eloff/assert v0.1.2/go.mod h1:Qgh5+aphOWf6BJS19JTY8hAptbj08ns5kZ+07ZZ8KaU=
+github.com/eloff/assert v0.1.3 h1:muTKN7D3UGknMXMPUiLwBUkjlAk3YbDOMd/0d9KrVCs=
+github.com/eloff/assert v0.1.3/go.mod h1:Qgh5+aphOWf6BJS19JTY8hAptbj08ns5kZ+07ZZ8KaU=
+github.com/google/go-cmp v0.2.0 h1:+dTQ8DZQJz0Mb/HjFlkptS1FeQ4cWSnN941F8aEG4SQ=
+github.com/google/go-cmp v0.2.0/go.mod h1:oXzfMopK8JAjlY9xF4vHSVASa0yLyX7SntLO5aqRK0M=
+github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
+github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
+github.com/stretchr/testify v1.2.2 h1:bSDNvY7ZPG5RlJ8otE/7V6gMiyenm9RtJ7IUVIAoJ1w=
+github.com/stretchr/testify v1.2.2/go.mod h1:a8OnRcib4nhh0OaRAV+Yts87kKdq0PP7pXfy6kDkUVs=

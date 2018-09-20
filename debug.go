@@ -47,25 +47,25 @@ func False(val bool) {
 }
 
 func Greater(x, y interface{}) {
-	if less(y, x) {
+	if !less(y, x) {
 		Assertf("expected %v > %v", x, y)
 	}
 }
 
 func GreaterOrEqual(x, y interface{}) {
-	if !less(x, y) {
+	if less(x, y) { //
 		Assertf("expected %v >= %v", x, y)
 	}
 }
 
 func Lesser(x, y interface{}) {
-	if less(x, y) {
+	if !less(x, y) {
 		Assertf("expected %v < %v", x, y)
 	}
 }
 
-func LessserOrEqual(x, y interface{}) {
-	if less(x, y) || equal(x, y) {
+func LesserOrEqual(x, y interface{}) {
+	if less(y, x) { // x > y
 		Assertf("expected %v <= %v", x, y)
 	}
 }
