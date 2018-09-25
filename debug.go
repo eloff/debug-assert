@@ -1,9 +1,10 @@
-// +build debug
+// +build assert
 
 package assert
 
 import (
 	"fmt"
+	"reflect"
 
 	"github.com/davecgh/go-spew/spew"
 	"github.com/google/go-cmp/cmp"
@@ -85,7 +86,14 @@ func LesserOrEqual(x, y interface{}) {
 	}
 }
 
+func TypesEqual(x, y interface{}) {
+	if reflect.TypeOf(x) != reflect.TypeOf(y) {
+		Assertf("argument type mismatch: %T != %T", x, y)
+	}
+}
+
 func less(x, y interface{}) bool {
+	TypesEqual(x, y)
 	switch val := x.(type) {
 	case int:
 		return val < y.(int)

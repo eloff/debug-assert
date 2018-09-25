@@ -1,4 +1,4 @@
-// +build !debug
+// +build !assert
 
 package assert
 
@@ -12,5 +12,6 @@ func False(val bool)                                            {}
 func Greater(expected, actual interface{})                      {}
 func GreaterOrEqual(expected, actual interface{})               {}
 func Lesser(expected, actual interface{})                       {}
-func LessserOrEqual(expected, actual interface{})               {}
+func LesserOrEqual(expected, actual interface{})                {}
 func NotNil(val interface{})                                    {}
+func TypesEqual(x, y interface{})                               {}
